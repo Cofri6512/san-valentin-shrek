@@ -1,0 +1,25 @@
+body {
+  background: #2e7d32;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  display: none;
+  padding: 40px;
+  margin-top: 20vh;
+}
+
+.card.active {
+  display: block;
+}
+
+button {
+  background: #8bc34a;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
